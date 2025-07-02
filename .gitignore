@@ -1,0 +1,72 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# https://github.com/takari/maven-wrapper#usage-without-binary-jar
+.mvn/wrapper/maven-wrapper.jar
+
+# Compiled class files
+*.class
+
+# Package Files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Log files
+*.log
+logs/
+*.log.*
+
+# IDEs
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/ # Visual Studio Code
+.classpath # Eclipse
+.project # Eclipse
+.settings/ # Eclipse
+.metadata/ # Eclipse workspace
+bin/ # Eclipse compiled classes
+tmp/ # Eclipse temporary files
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.recommenders/
+.externalToolBuilders/
+*.launch # Eclipse launch configurations
+.springBeans # STS/Eclipse Spring-specific files
+.sts4-cache/ # STS 4 cache
+
+# OS-specific files
+.DS_Store # macOS
+Thumbs.db # Windows
+Desktop.ini # Windows
+.localized # macOS
+.Spotlight-V100 # macOS
+.Trashes # macOS
+._* # macOS resource forks
+
+# Virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*.log
+
+# Misc
+.cache/
+.project_root # Sometimes created by IDEs or tools
+
+# Environment variables file (e.g., for Spring Boot applications)
+.env
